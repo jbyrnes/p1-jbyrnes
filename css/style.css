@@ -1,0 +1,27 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #1F1F2E;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #BCBBBB;
+}
+
+.logo-img {
+	margin-top: 20px;
+}
+
+.txt-light {
+	color: #BCBBBB
+}
+
+.txt-thin {
+	font-weight: 100;
+}
+
+.txt-main {
+	font-size: 50px;
+}
+

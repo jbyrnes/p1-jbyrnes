@@ -5,14 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Portfolio Site</title>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Lato:400,100" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
+			<!-- Logo and heading -->
 			<div class="row">
 				<div class="col-md-6">
 					<img class="logo-img" src="images/logo.jpg" alt="Portfolio Logo">
@@ -21,6 +22,7 @@
 					<h1 class="txt-thin txt-main">Jeremiah Byrnes</h1>
 					<h4>Front-end Ninja</h4>
 				</div>
+			<!-- Main image -->
 			<div class="row">
 				<div class="col-md-12">
 					<hr>
@@ -37,6 +39,7 @@
 					<h2 class="txt-light">Featured Work</h2>
 				</div>
 			</div>
+			<!-- Featured images -->
 			<div class="row">
 				<div class="col-md-4">
 					<img class="img-responsive" src="images/christ.jpg" alt="Christ" data-toggle="modal" data-target="#project1">
@@ -56,53 +59,53 @@
 			</div>
 		</div>
 		<!-- Modal -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel1">My Blog</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/christ.jpg" alt="Christ">
-        This was my first project in this class. I learned a lot about HTML and CSS. I also maintain <a href="http://jeremiahbyrnes.com" target="_blank">a blog</a> that includes art, poetry and cultural reflections from a Christian perspective.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel2">Melbourne</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/melbourne.jpg" alt="Melbourne">
-        I live in Melbourne, Australia which is regularly voted one of the world's most liveable cities.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel3">Monash University</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/monash.jpg" alt="Monash University">
-        I work for Monash University. Just over 50 years old but ranked within the world top 100.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel1">My Blog</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/christ.jpg" alt="Christ">
+						This was my first project in this class. I learned a lot about HTML and CSS. I also maintain <a href="http://jeremiahbyrnes.com" target="_blank">a blog</a> that includes art, poetry and cultural reflections from a Christian perspective.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel2">Melbourne</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/melbourne.jpg" alt="Melbourne">
+						I live in Melbourne, Australia which is regularly voted one of the world's most liveable cities.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel3">Monash University</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/monash.jpg" alt="Monash University">
+						I work for Monash University. Just over 50 years old but ranked within the world top 100.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

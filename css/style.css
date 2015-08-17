@@ -1,12 +1,12 @@
 body {
 	font-family: 'Lato', sans-serif;
-	color: #1F1F2E;
+	color: #1f1f2e;
 }
 
 hr {
 	border: none;
 	height: 3px;
-	background-color: #BCBBBB;
+	background-color: #bcbbbb;
 }
 
 .logo-img {
@@ -14,7 +14,7 @@ hr {
 }
 
 .txt-light {
-	color: #BCBBBB
+	color: #bcbbbb;
 }
 
 .txt-thin {
@@ -24,4 +24,3 @@ hr {
 .txt-main {
 	font-size: 50px;
 }
-
